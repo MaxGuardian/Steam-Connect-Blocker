@@ -1,0 +1,40 @@
+{
+  "RU_notAdminError_title": "Нет прав администратора!",
+  "RU_notAdminError_message": "Для работы с брандмауэром приложению нужны права администратора.",
+  "RU_badPath_title": "Неправильный путь!",
+  "RU_badPath_message": "Укажите корректный путь к steam.exe",
+  "RU_bad_add_title": "Не вышло!",
+  "RU_bad_add_message": "Не удалось заблокировать доступ к сети процессу steam.exe. \nУбедитесь, что у приложения есть права администратора, путь к steam.exe корректный, и что доступ к сети возможно заблокировать.",
+
+  "RU_switch_text": "Блокировка",
+  "RU_pathEntryText": "Укажите директорию к steam.exe...",
+  "RU_pathButtonText": "Обзор",
+
+  "RU_ruleDescription": "Данное правило блокирует доступ в Интернет у steam.exe, за счет чего Steam не видит запущены ли игры на других сессиях. При этом для вас Интернет остается, а в Steam можно просматривать профили, торговую площадку, магазин и т.д.",
+
+  "RU_info_title": "О программе",
+  "RU_info_message": "Steam Connect Blocker создан для людей, которые вдвоем или более играют на одном аккаунте, и столкнувшиеся с проблемой - отключать весь Интернет на компьютере это неудобно, и что более важно - не позволяет играть в онлайн игры. \n \nЭта программа решает данную проблему, блокируя Интернет только для steam.exe, отвечающего за данные о включенных играх на других сессиях. При этом большая часть функций Steam остаются, такие как просмотр магизина, вкладки сообщества, профилей, и т.д. (однако скачивать игры, увы, нельзя). \n \nПРИМЕЧАНИЕ: часть онлайн (возможно и не только) игр не работает без подключенного к сети Steam, например Dead By Daylight. \n \nИграйте на здоровье!",
+
+
+  "ENG_notAdminError_title": "No administrator rights!",
+  "ENG_notAdminError_message": "The application needs administrator rights to work with the firewall.",
+  "ENG_badPath_title": "Wrong path!",
+  "ENG_badPath_message": "Specify the correct path to steam.exe",
+  "ENG_bad_add_title": "Bad luck!",
+  "ENG_bad_add_message": "Failed to block network access to the steam.exe process. \nMake sure that the application has administrator rights, the path to steam.exe is correct, and that network access can be blocked.",
+
+
+  "ENG_switch_text": "Blocking",
+  "ENG_pathEntryText": "Specify the directory to steam.exe...",
+  "ENG_pathButtonText": "Browse",
+
+  "ENG_ruleDescription": "This rule blocks steam.exe from accessing the Internet, so Steam cannot see if games are running on other sessions. At the same time, the Internet remains for you, and you can view profiles, marketplace, store, etc. in Steam.",
+
+  "ENG_info_title": "About program",
+  "ENG_info_message": "Steam Connect Blocker is designed for people who play two or more games on the same account, and faced with the problem - disconnecting the entire Internet on the computer is inconvenient, and more importantly - does not allow you to play online games. \n \nThis program solves this problem by blocking the Internet only for steam.exe, which is responsible for data on enabled games on other sessions. In this case, most of the Steam functions remain, such as viewing the magizin, community tabs, profiles, etc. (but you can't download games, alas). \n \nNOTE: some online games (maybe not only) do not work without Steam connected to the network, for example, Dead By Daylight. \n \nGame on your own!",
+
+
+  "default_steam_path": "C:\\Program Files (x86)\\Steam\\steam.exe",
+  "folder_path": "C:\\ProgramData\\Steam Network Blocker",
+  "data_path": "C:\\ProgramData\\Steam Network Blocker\\settings.ini"
+}
